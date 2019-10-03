@@ -1,12 +1,7 @@
 <?php
+require "controller.php";
 
-$colore = [
-  "nome" => "Colore Bianco",
-  "code" => "#ffffff",
-  "id" => 1  
-];
-
-//$colore = getColore();
+$colore = getColore();
 
 ?>
 
